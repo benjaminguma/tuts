@@ -44,8 +44,8 @@ let names2 = ['f', 'y', 'b'];
 let combined = names1.concat(name2);
 // ['a', 'b', 'c','f', 'y', 'b']
 
-let elegantCombined = [...names1, ...names2];
-// ['a', 'b', 'c','f', 'y', 'b']
+let elegantCombined = [...names1, ...names2, 90, 900];
+// ['a', 'b', 'c','f', 'y', 'b',90,900]
 
 let ob1 = {
 	a: '7',
@@ -67,4 +67,5 @@ let combObj = {
 // 	b: '90',
 //     c: 'oeoe',
 // 	d: false,
+// pig: 900
 // }

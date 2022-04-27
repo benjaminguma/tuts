@@ -1,4 +1,4 @@
-function AddPlenty(a, b, c, ...numbers) {
+function AddPlenty(...numbers) {
 	let total = 0;
 	for (let el of numbers) {
 		total += el;
