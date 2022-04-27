@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+				font-family: Arial, Helvetica, sans-serif;
+			}
+
+			.modal {
+				background-color: black;
+				color: #888;
+				position: absolute;
+				top: 40%;
+				left: 50%;
+				width: 50%;
+				transform: translateX(-50%);
+				padding: 20px;
+			}
+			.backdrop {
+				border: 2px solid green;
+				position: fixed;
+				/* width: 100vw;
+				height: 100vh; */
+				background: rgba(0, 0, 0, 0.3);
+				/* top: 0;
+				bottom: 0;
+				right: 0;
+				left: 0; */
+				inset: 0 0 0 0;
+			}
+			.close {
+				position: absolute;
+				top: 5px;
+				right: 5px;
+			}
+			.btn_pack button {
+				padding: 4px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="backdrop">
+			<div class="modal">
+				<p>delete this file</p>
+				<div class="btn_pack">
+					<button>cancel</button>
+					<button>delete</button>
+				</div>
+				<button class="close">&times;</button>
+			</div>
+		</div>
+		<p>
+			Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate esse magni eum iste ea, atque,
+			repudiandae nisi quis vero corrupti fugit, architecto aperiam possimus suscipit. Nemo odit esse quae
+			tempora!
+		</p>
+	</body>
+</html>

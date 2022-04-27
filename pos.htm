@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+
+		<style>
+			.box {
+				border: 3px solid red;
+			}
+			.parent {
+				width: 100px;
+				height: 100px;
+				position: fixed;
+				top: 10px;
+				margin: auto;
+			}
+			.child {
+				border-color: green;
+				width: 20px;
+				height: 20px;
+				position: absolute;
+				top: 40px;
+				right: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="parent box">
+			<div class="child box"></div>
+		</div>
+		<section style="margin-bottom: 700px"></section>
+	</body>
+</html>
